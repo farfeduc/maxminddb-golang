@@ -3,7 +3,7 @@
 package maxminddb
 
 import (
-	"golang.org/x/sys/unix"
+	"github.com/golang/sys/unix"
 )
 
 func mmap(fd int, length int) (data []byte, err error) {
