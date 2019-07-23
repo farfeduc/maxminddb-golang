@@ -15,7 +15,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
+	"github.com/golang/sys/windows"
 )
 
 type memoryMap []byte
